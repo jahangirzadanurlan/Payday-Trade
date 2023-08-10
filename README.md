@@ -1,6 +1,5 @@
-# Payday-Trade
+# Payday Trade 💰📈
 
-Payday Trade 💰📈
 Welcome to Payday Trade – the ultimate trading solution that lets you purchase stocks from partner brokers through your bank account. This platform delivers a seamless and secure trading experience like never before.
 
 Table of Contents
