@@ -4,20 +4,20 @@ Welcome to Payday Trade – the ultimate trading solution that lets you purchase
 
 Table of Contents
 
-Background
-Features
-User Stories
-Sign Up
-Sign In
-List Stocks
-Deposit Cash
-Place an Order
-Email Notification
-Getting Started
-Local Development
-Testing
-Deployment
-Contact
+**Background**
+**Features**
+**User Stories**
+**Sign Up**
+**Sign In**
+**List Stocks**
+**Deposit Cash**
+**Place an Order**
+**Email Notification**
+**Getting Started**
+**Local Development**
+**Testing**
+**Deployment**
+**Contact**
 
 Background 🌄
 
