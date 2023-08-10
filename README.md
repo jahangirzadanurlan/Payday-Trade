@@ -2,6 +2,19 @@
 
 Welcome to Payday Trade – the ultimate trading solution that empowers you to purchase stocks from partner brokers through your bank account. This platform offers a seamless and secure trading experience like never before.
 
+This project utilizes a variety of tools and technologies including:
+
+- JWT for secure authentication
+- Spring Security for enhancing application security
+- Docker for containerization
+- Feign Client for API communication
+- Spring Email for sending email notifications
+- Validation for input validation
+- PostgreSQL as the main relational database
+- JPA/Hibernate for data persistence
+- H2 Database for local development and testing
+- Lombok for reducing boilerplate code
+
 ## Table of Contents
 - [Background](#background)
 - [Features](#features)
