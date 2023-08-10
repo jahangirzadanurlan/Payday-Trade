@@ -28,9 +28,6 @@ _Table of Contents_
 
 -**Testing**
 
--**Deployment**
-
--**Contact**
 
 
 Background 🌄
