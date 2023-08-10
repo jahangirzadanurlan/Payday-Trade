@@ -4,30 +4,29 @@ Welcome to Payday Trade – the ultimate trading solution that lets you purchase
 
 _Table of Contents_
 
--**Background**
+- **Background**
 
--**Features**
+- **Features**
 
--**User Stories**
+- **User Stories**
 
--**Sign Up**
+- **Sign Up**
 
--**Sign In**
+- **Sign In**
 
--**List Stocks**
+- **List Stocks**
 
--**Deposit Cash**
+- **Deposit Cash**
 
--**Place an Order**
+- **Place an Order**
 
--**Email Notification**
+- **Email Notification**
 
--**Getting Started**
+- **Getting Started**
 
--**Local Development**
+- **Local Development**
 
--**Testing**
-
+- **Testing**
 
 
 Background 🌄
@@ -54,12 +53,14 @@ Open to anyone with app access 📱
 Provide user name, email, and password 🔑
 Activate your account by clicking the received activation link in the email 📧
 
+
 Sign In 🔑
 
 Easily sign into the system to access your customer profile details.
 
 Acceptance Criteria:
 Use passwords with 6 or more alphanumeric characters 🔐
+
 
 List Stocks 📈
 
@@ -69,12 +70,14 @@ Acceptance Criteria:
 Log in to your organization 👤
 List available stock symbols with current prices 📊
 
+
 Deposit Cash 💰
 
 Load cash into your account effortlessly.
 
 Acceptance Criteria:
 Log into your account and deposit any desired amount to your cash balance 💸
+
 
 Place an Order 🔄
 
@@ -84,12 +87,14 @@ Acceptance Criteria:
 Create a buy/sell order with a target price 📉📈
 Orders are filled automatically once the stock price reaches the target 🎯
 
+
 Email Notification 📬
 
 Receive email notifications when your BUY/SELL orders are filled on the exchange.
 
 Acceptance Criteria:
 Get notified by email for filled orders 📧
+
 
 Getting Started 🚀
 
@@ -101,9 +106,11 @@ Set up your environment variables
 Run the application
 For detailed instructions, refer to the Getting Started Guide.
 
+
 Local Development 🛠️
 
 Discover how to contribute to Payday Trade and make local developments by checking out our Contribution Guidelines.
+
 
 Testing 🧪
 
