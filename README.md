@@ -2,35 +2,36 @@
 
 Welcome to Payday Trade – the ultimate trading solution that lets you purchase stocks from partner brokers through your bank account. This platform delivers a seamless and secure trading experience like never before.
 
-Table of Contents
+_Table of Contents_
 
-**Background**
+-**Background**
 
-**Features**
+-**Features**
 
-**User Stories**
+-**User Stories**
 
-**Sign Up**
+-**Sign Up**
 
-**Sign In**
+-**Sign In**
 
-**List Stocks**
+-**List Stocks**
 
-**Deposit Cash**
+-**Deposit Cash**
 
-**Place an Order**
+-**Place an Order**
 
-**Email Notification**
+-**Email Notification**
 
-**Getting Started**
+-**Getting Started**
 
-**Local Development**
+-**Local Development**
 
-**Testing**
+-**Testing**
 
-**Deployment**
+-**Deployment**
 
-**Contact**
+-**Contact**
+
 
 Background 🌄
 
