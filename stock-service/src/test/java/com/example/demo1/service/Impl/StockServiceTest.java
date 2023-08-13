@@ -41,9 +41,6 @@ class StockServiceTest {
     @Autowired
     private StockService stockService;
 
-    /**
-     * Method under test: {@link StockService#findStockByName(String)}
-     */
     @Test
     void testFindStockByName() {
         Stock stock = new Stock();
@@ -65,9 +62,6 @@ class StockServiceTest {
         verify(modelMapper).map(Mockito.<Object>any(), Mockito.<Class<Object>>any());
     }
 
-    /**
-     * Method under test: {@link StockService#findStockByName(String)}
-     */
     @Test
     void testFindStockByName2() {
         Stock stock = mock(Stock.class);
@@ -109,9 +103,6 @@ class StockServiceTest {
         verify(modelMapper).map(Mockito.<Object>any(), Mockito.<Class<Object>>any());
     }
 
-    /**
-     * Method under test: {@link StockService#findStockByName(String)}
-     */
     @Test
     void testFindStockByName3() {
         Stock stock = mock(Stock.class);
@@ -150,9 +141,6 @@ class StockServiceTest {
         verify(modelMapper).map(Mockito.<Object>any(), Mockito.<Class<Object>>any());
     }
 
-    /**
-     * Method under test: {@link StockService#findAllStocks()}
-     */
     @Test
     void testFindAllStocks() {
         when(stockRepository.findAll()).thenReturn(new ArrayList<>());
@@ -160,9 +148,6 @@ class StockServiceTest {
         verify(stockRepository).findAll();
     }
 
-    /**
-     * Method under test: {@link StockService#findAllStocks()}
-     */
     @Test
     void testFindAllStocks2() {
         Stock stock = new Stock();
@@ -185,9 +170,6 @@ class StockServiceTest {
         verify(stockRepository).findAll();
     }
 
-    /**
-     * Method under test: {@link StockService#findAllStocks()}
-     */
     @Test
     void testFindAllStocks3() {
         when(stockRepository.findAll()).thenThrow(new RuntimeException("Stock List is empty!"));
@@ -195,9 +177,6 @@ class StockServiceTest {
         verify(stockRepository).findAll();
     }
 
-    /**
-     * Method under test: {@link StockService#findStockBySymbol(String)}
-     */
     @Test
     void testFindStockBySymbol() {
         Stock stock = new Stock();
@@ -216,9 +195,6 @@ class StockServiceTest {
         verify(stockRepository).findStockBySymbol(Mockito.<String>any());
     }
 
-    /**
-     * Method under test: {@link StockService#findStockBySymbol(String)}
-     */
     @Test
     void testFindStockBySymbol2() {
         when(stockRepository.findStockBySymbol(Mockito.<String>any())).thenReturn(Optional.empty());
@@ -226,9 +202,6 @@ class StockServiceTest {
         verify(stockRepository).findStockBySymbol(Mockito.<String>any());
     }
 
-    /**
-     * Method under test: {@link StockService#findStockBySymbol(String)}
-     */
     @Test
     void testFindStockBySymbol3() {
         when(stockRepository.findStockBySymbol(Mockito.<String>any()))
@@ -237,9 +210,6 @@ class StockServiceTest {
         verify(stockRepository).findStockBySymbol(Mockito.<String>any());
     }
 
-    /**
-     * Method under test: {@link StockService#sellStock(SellRequestDto)}
-     */
     @Test
     void testSellStock() {
         Stock stock = new Stock();
@@ -258,9 +228,6 @@ class StockServiceTest {
         verify(stockRepository).findStockBySymbol(Mockito.<String>any());
     }
 
-    /**
-     * Method under test: {@link StockService#sellStock(SellRequestDto)}
-     */
     @Test
     void testSellStock2() {
         Stock stock = mock(Stock.class);
@@ -299,9 +266,6 @@ class StockServiceTest {
         verify(stock).setType(Mockito.<String>any());
     }
 
-    /**
-     * Method under test: {@link StockService#sellStock(SellRequestDto)}
-     */
     @Test
     void testSellStock3() {
         when(stockRepository.findStockBySymbol(Mockito.<String>any())).thenReturn(Optional.empty());
@@ -309,9 +273,6 @@ class StockServiceTest {
         verify(stockRepository).findStockBySymbol(Mockito.<String>any());
     }
 
-    /**
-     * Method under test: {@link StockService#sellStock(SellRequestDto)}
-     */
     @Test
     @Disabled("TODO: Complete this test")
     void testSellStock4() {

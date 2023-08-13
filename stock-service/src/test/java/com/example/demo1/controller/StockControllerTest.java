@@ -31,9 +31,6 @@ class StockControllerTest {
     @Autowired
     private StockController stockController;
 
-    /**
-     * Method under test: {@link StockController#showStockData()}
-     */
     @Test
     void testShowStockData() throws Exception {
         when(iStockService.findAllStocks()).thenReturn(new ArrayList<>());
@@ -46,9 +43,6 @@ class StockControllerTest {
                 .andExpect(MockMvcResultMatchers.content().string("[]"));
     }
 
-    /**
-     * Method under test: {@link StockController#showStockData()}
-     */
     @Test
     void testShowStockData2() throws Exception {
         when(iStockService.findAllStocks()).thenReturn(new ArrayList<>());
@@ -62,9 +56,6 @@ class StockControllerTest {
                 .andExpect(MockMvcResultMatchers.content().string("[]"));
     }
 
-    /**
-     * Method under test: {@link StockController#stockById(SellRequestDto)}
-     */
     @Test
     void testStockById() throws Exception {
         when(iStockService.sellStock(Mockito.<SellRequestDto>any())).thenReturn(1);
@@ -84,9 +75,6 @@ class StockControllerTest {
                 .andExpect(MockMvcResultMatchers.content().string("1"));
     }
 
-    /**
-     * Method under test: {@link StockController#stockBySymbol(String)}
-     */
     @Test
     void testStockBySymbol() throws Exception {
         Stock stock = new Stock();

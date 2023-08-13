@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface StockServiceClient {
 
     @GetMapping("/stock")
-    Stock findStockBySymbol(@RequestParam String symbol);
+    Stock findStockBySymbol(@RequestParam("symbol") String symbol);
 
     @PostMapping("/stock/sell")
     int sellStock(@RequestBody SellRequestDto sellRequestDTO);

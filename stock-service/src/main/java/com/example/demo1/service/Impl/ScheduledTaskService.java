@@ -18,7 +18,7 @@ import java.util.concurrent.ThreadLocalRandom;
 public class ScheduledTaskService {
     private final StockRepository stockRepository;
 
-    @Scheduled(initialDelay = 40 * 60 * 1000, fixedRate = 30 * 60 * 1000) //30 minute
+    @Scheduled(initialDelay = 40 * 60 * 1000, fixedRate = 40 * 60 * 1000) //40 minute
     public void updateDatabase() throws IOException {
         List<Stock> stocks = stockRepository.findAll();
 

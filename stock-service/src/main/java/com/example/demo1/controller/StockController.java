@@ -19,7 +19,7 @@ public class StockController {
     }
 
     @GetMapping("/stock")
-    public Stock stockBySymbol(@RequestParam String symbol) {
+    public Stock stockBySymbol(@RequestParam("symbol") String symbol) {
         return stockService.findStockBySymbol(symbol);
     }
 

@@ -18,9 +18,6 @@ class StockRepositoryTest {
     @Autowired
     private StockRepository stockRepository;
 
-    /**
-     * Method under test: {@link StockRepository#findStockByName(String)}
-     */
     @Test
     void testFindStockByName() {
         Stock stock = new Stock();
@@ -47,9 +44,6 @@ class StockRepositoryTest {
         assertTrue(stockRepository.findStockByName("Name").isPresent());
     }
 
-    /**
-     * Method under test: {@link StockRepository#findStockBySymbol(String)}
-     */
     @Test
     void testFindStockBySymbol() {
         Stock stock = new Stock();

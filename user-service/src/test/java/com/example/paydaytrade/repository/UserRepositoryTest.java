@@ -24,42 +24,9 @@ class UserRepositoryTest {
     @Autowired
     private UserRepository userRepository;
 
-    /**
-     * Method under test: {@link UserRepository#findUserByUsernameOrEmail(String)}
-     */
     @Test
     @Disabled("TODO: Complete this test")
     void testFindUserByUsernameOrEmail() {
-        // TODO: Complete this test.
-        //   Reason: R013 No inputs found that don't throw a trivial exception.
-        //   Diffblue Cover tried to run the arrange/act section, but the method under
-        //   test threw
-        //   org.springframework.dao.InvalidDataAccessApiUsageException: detached entity passed to persist: com.example.paydaytrade.model.entity.Token; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.example.paydaytrade.model.entity.Token
-        //       at com.sun.proxy.$Proxy146.save(Unknown Source)
-        //   org.hibernate.PersistentObjectException: detached entity passed to persist: com.example.paydaytrade.model.entity.Token
-        //       at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:120)
-        //       at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:118)
-        //       at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:780)
-        //       at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:748)
-        //       at org.hibernate.engine.spi.CascadingActions$7.cascade(CascadingActions.java:298)
-        //       at org.hibernate.engine.internal.Cascade.cascadeToOne(Cascade.java:510)
-        //       at org.hibernate.engine.internal.Cascade.cascadeAssociation(Cascade.java:434)
-        //       at org.hibernate.engine.internal.Cascade.cascadeProperty(Cascade.java:220)
-        //       at org.hibernate.engine.internal.Cascade.cascade(Cascade.java:153)
-        //       at org.hibernate.event.internal.AbstractSaveEventListener.cascadeBeforeSave(AbstractSaveEventListener.java:426)
-        //       at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:263)
-        //       at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192)
-        //       at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:122)
-        //       at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:185)
-        //       at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:128)
-        //       at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55)
-        //       at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
-        //       at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:756)
-        //       at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:742)
-        //       at com.sun.proxy.$Proxy142.persist(Unknown Source)
-        //       at com.sun.proxy.$Proxy146.save(Unknown Source)
-        //   See https://diff.blue/R013 to resolve this issue.
-
         User user = new User();
         user.setEmail("jane.doe@example.org");
         user.setEnabled(true);
