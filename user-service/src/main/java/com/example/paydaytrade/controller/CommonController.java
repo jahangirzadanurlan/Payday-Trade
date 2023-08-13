@@ -11,7 +11,7 @@ public class CommonController {
 
     @GetMapping("/info")
     public RedirectView redirectToYouTubeChannel() {
-        String youtubeChannelUrl = "https://www.youtube.com/@NurlanJahangirzada";
+        String youtubeChannelUrl = "https://www.youtube.com/watch?v=cjCgEdm3WF8";
         return new RedirectView(youtubeChannelUrl);
     }
 
